@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pinnadas apps</title>
+<meta name="description" content="Small, private apps by Pinnadas. Get them on the App Store and Google Play.">
+<link rel="icon" href="img/pinnadas-avatar.png">
+<style>
+  :root { --bg:#0b0d12; --card:#161b26; --ink:#f4efe6; --dim:rgba(244,239,230,.6); --accent:#e8b86d; --line:rgba(244,239,230,.14); }
+  * { box-sizing:border-box; margin:0; }
+  body { background:radial-gradient(circle at 50% 0%, #1d2433 0%, var(--bg) 60%) fixed; background-color:var(--bg); color:var(--ink);
+         font:16px/1.5 -apple-system, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; min-height:100vh; }
+  main { max-width:480px; margin:0 auto; padding:48px 16px 40px; }
+  header { text-align:center; margin-bottom:32px; }
+  header img { width:88px; height:88px; border-radius:50%; }
+  h1 { font-size:28px; margin-top:12px; }
+  header p { color:var(--dim); }
+  .app { background:var(--card); border:1px solid var(--line); border-radius:20px; padding:20px; margin-bottom:16px; }
+  .top { display:flex; gap:14px; align-items:center; }
+  .top img { width:64px; height:64px; border-radius:15px; flex-shrink:0; }
+  h2 { font-size:20px; }
+  .tag { color:var(--accent); font-size:15px; }
+  .about { color:var(--dim); font-size:15px; margin:12px 0 16px; }
+  .stores { display:flex; gap:10px; }
+  .stores a { flex:1; text-align:center; text-decoration:none; color:var(--ink); border:1px solid var(--line); border-radius:12px;
+              padding:10px 6px; background:rgba(255,255,255,.04); font-weight:600; font-size:15px; }
+  .stores a:hover { border-color:var(--accent); }
+  .stores a small { display:block; font-weight:400; font-size:12px; color:var(--dim); }
+  footer { text-align:center; color:var(--dim); font-size:14px; margin-top:28px; }
+  footer a { color:var(--dim); }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="img/pinnadas-avatar.png" alt="Pinnadas">
+    <h1>Pinnadas</h1>
+    <p>Small, private apps that do one thing well.</p>
+  </header>
+
+  <section class="app">
+    <div class="top">
+      <img src="img/cairn.png" alt="Cairn icon">
+      <div><h2>Cairn</h2><div class="tag">Your second brain</div></div>
+    </div>
+    <p class="about">Say or type a thought in 2 seconds. Cairn brings it back when you need it. AI runs on your phone, with no account.</p>
+    <div class="stores">
+      <a href="https://apps.apple.com/app/id6811047461"><small>Download on the</small>App Store</a>
+      <a href="https://play.google.com/store/apps/details?id=com.recollect.android"><small>Get it on</small>Google Play</a>
+    </div>
+  </section>
+
+  <!-- GPS Camera Pro: add back with real store links
+  <section class="app">
+    <div class="top">
+      <img src="img/gps-camera-pro.png" alt="GPS Camera Pro icon">
+      <div><h2>GPS Camera Pro</h2><div class="tag">Photos stamped with place and time</div></div>
+    </div>
+    <p class="about">Take photos with GPS location, address and time stamped on them, for site visits, inspections and proof of work.</p>
+    <div class="stores">
+      <a href="GPS_APP_STORE_URL"><small>Download on the</small>App Store</a>
+      <a href="GPS_PLAY_URL"><small>Get it on</small>Google Play</a>
+    </div>
+  </section>
+  -->
+
+  <footer>
+    <a href="https://www.instagram.com/pinnadas.apps">Instagram</a> ·
+    <a href="https://www.youtube.com/@pinnadas">YouTube</a> ·
+    <a href="mailto:pinnadas.apps@gmail.com">Email</a>
+  </footer>
+</main>
+</body>
+</html>
